@@ -1,3 +1,3 @@
 <h1>{{ title }}</h1>
-<div>{{ counter }}</div>
-<button (click)="increment()">increment</button>
+<app-child [value]="counter" (clickEv)="increment()"></app-child>
+

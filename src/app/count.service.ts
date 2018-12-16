@@ -5,7 +5,7 @@ import { BehaviorSubject, Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class CountService {
-  private counter = new BehaviorSubject(5);
+  private counter = new BehaviorSubject(0);
 
   constructor() {}
 
