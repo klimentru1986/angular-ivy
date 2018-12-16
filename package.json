@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
+    "start": "ng serve --aot",
+    "build": "ng build --prod",
     "compile": "ngc -p src/tsconfig.app.json",
     "test": "ng test",
     "lint": "ng lint",
