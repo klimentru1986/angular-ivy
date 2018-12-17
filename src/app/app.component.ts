@@ -1,5 +1,4 @@
-import { Component, ɵmarkDirty as markDirty, OnInit } from '@angular/core';
-import { CountService } from './count.service';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -8,18 +7,4 @@ import { CountService } from './count.service';
 })
 export class AppComponent {
   title = 'Hello Ivy!!!';
-  counter = 0;
-
-  constructor(private counterService: CountService) {
-    setTimeout(() => {
-      this.counterService.getCounter().subscribe(c => {
-        this.counter = c;
-        markDirty(this);
-      });
-    });
-  }
-
-  increment() {
-    this.counterService.increment();
-  }
 }

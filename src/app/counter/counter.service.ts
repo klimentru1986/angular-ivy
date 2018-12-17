@@ -4,7 +4,7 @@ import { BehaviorSubject, Observable } from 'rxjs';
 @Injectable({
   providedIn: 'root'
 })
-export class CountService {
+export class CounterService {
   private counter = new BehaviorSubject(0);
 
   constructor() {}
