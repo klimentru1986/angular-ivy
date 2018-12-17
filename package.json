@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve --aot",
     "build": "ng build --prod",
+    "ivy-ngcc": "ivy-ngcc",
     "compile": "ngc -p src/tsconfig.app.json",
     "test": "ng test",
     "lint": "ng lint",

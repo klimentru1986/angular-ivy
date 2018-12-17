@@ -15,7 +15,7 @@
           "options": {
             "outputPath": "dist/angular-ivy",
             "index": "src/index.html",
-            "main": "src/app/app.module.ts",
+            "main": "src/main.ts",
             "tsConfig": "src/tsconfig.app.json",
             "assets": ["src/favicon.ico", "src/assets"],
             "styles": ["src/styles.css"],
