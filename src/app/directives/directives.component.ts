@@ -6,5 +6,5 @@ import { Component, ViewEncapsulation } from '@angular/core';
   styleUrls: ['./directives.component.css']
 })
 export class DirectivesComponent {
-  engines = ['Renderer', 'Renderer2', 'Ivy'];
+  engines = ['Template Compiler', 'View Engine', 'Ivy'];
 }
