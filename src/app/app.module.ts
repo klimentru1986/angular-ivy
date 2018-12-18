@@ -1,12 +1,13 @@
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { ForModule } from './for/for.module';
+import { DirectivesModule } from './directives/directives.module';
+
 import { CounterModule } from './counter/counter.module';
 import { HelloComponent } from './hello/hello.component';
 
 @NgModule({
-  imports: [CounterModule, ForModule],
+  imports: [CounterModule, DirectivesModule],
   declarations: [AppComponent, HelloComponent]
 })
 export class AppModule {}
